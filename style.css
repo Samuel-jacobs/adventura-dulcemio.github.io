@@ -1,0 +1,276 @@
+html, body {
+	width: 100%;
+    
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.bg {
+	transition: 0.5s ease-in;
+	background-color: transparent;
+
+}
+.bg.scrolled {
+	background-color: white;
+	color: black;
+	
+	top: 0;
+	left: 0;
+} 
+
+.nav-link {
+	font-size: 20px;
+}
+
+.carousel-inner  img {
+	width: 100%;
+	height: 100%;
+}
+.carousel-caption{
+	font-family: 'caveat brush', 'Averia Serif Libre' , Gadget, sans-serif;
+	color: white;
+	font-weight: bolder;
+	text-align: justify;
+	
+}
+.caption1 {
+	
+}
+
+.carousel-control-prev-icon:hover {
+	background-color: black;
+	height: 50px;
+	
+}
+.carousel-control-next-icon:hover {
+	background-color: black;
+	height: 50px;
+	
+}
+
+.my-5 {
+	border-top: 1px solid white;
+	width: 20%;
+}
+
+h1.display-4 {
+	text-align: center;
+}
+hr.my-4 {
+	border-top: 2px solid black;
+	width: 30%;
+}
+#welcome {
+	padding-top: 40px;
+	font-family:'Averia Serif Libre', "comic sans MS"
+}
+.welcometext {
+	text-align: center;
+	margin: 0 auto;
+	
+}
+#products {
+	height: 100%;
+	background: #D0D3D4;
+	font-family:'Averia Serif Libre', "comic sans MS";
+	padding-bottom: 50px;
+	padding-top: 50px;
+	padding-left: 40px;
+	padding-right: 40px; 
+}
+.card {
+	width: 200px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	text-align: center;
+	height: 420px;
+	
+}
+
+.card-text: {
+	font-size: 40px;
+	font-weight: bolder;
+}
+.card-footer {
+	height: 100%;
+}
+/*overlay effect */
+.container1 {
+	position: relative;
+	width: 200px;
+	height: 300px;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+}
+.cardimage {
+	display: block;
+	width: 200px;
+	height: 250px;
+}
+.wine-name {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/*
+.overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding-left: 0;
+	padding-right: 0;
+	background-color: black;
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	transition: .5s ease;
+	box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 grey;s
+}
+.container1:hover   .overlay   {
+  height: 100%;
+ 
+}
+
+.text {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+}*/
+
+hr.my-3 {
+	border-top: 2px solid black;
+	width: 80%;
+}
+
+a.tooltiplink {
+	text-decoration: none;
+	color: white;
+	background-color: white;
+}
+
+.tooltip .arrow:before  {
+    border-top-color: grey !important;
+    border-bottom-color: grey !important;
+}
+
+.tooltip .tooltip-inner {
+    background-color: white;
+	color: black;
+	text-align: left;
+}
+.btn-secondary {
+	background-color: #1B2631;
+}
+#footer { 
+	padding-top: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	margin: 0 auto;
+	height: 100%;
+	background-color: #1B2631;
+	color: white;
+	font-family: 'Averia Serif Libre', "comic sans MS";
+}
+a.footerlinks {
+	text-decoration: none;
+	color: white;
+}
+a.footerlinks:hover {
+	color: grey;
+}
+.row1 {
+	padding-bottom: 30px;
+}
+hr.my-2 {
+	border-top: 2px solid grey;
+	width: 40%;
+	float: left;
+}
+.fa-instagram {
+	font-size: 20px;
+	margin-left: 10px;
+	color: #517fa4;
+}
+.fa-facebook {
+	font-size: 20px;
+	margin-left: 10px;
+	color: #3b5998;
+}
+.fa-twitter {
+	font-size: 20px;
+	margin-left: 10px;
+	color: #00aced;
+}
+.fa-instagram:hover {
+	color: white;
+}
+.fa-facebook:hover {
+	color: white;
+}
+.fa-twitter:hover {
+	color: white;
+}
+.my-1 {
+	border-top: 1px solid grey;
+	width: 100%;
+}
+.fa-envelope {
+	font-size: 15px;
+}
+.fa-phone {
+	font-size: 15px;
+}
+.fa-map-marker-alt {
+	
+	font-size: 15px;
+}
+.footer-logo {
+	font-family: 'Sedgwick Ave Display';
+}
+
+/* media queries */
+
+@media (max-width: 600px) {
+	.carousel-inner  img {
+		height: 500px;
+	}
+	.carousel-caption {
+		
+		top: 40%;
+		text-align: center;
+		height: 20px;
+	}
+	.caption1 {
+		margin: auto 0;
+		text-align: center;
+	}
+	hr.my-4 {
+		width: 50%;
+	}
+	.footer-logo {
+		height: 200px;
+		
+	}
+}
+@media (min-width: 600px) {
+	.carousel-inner  img {
+		height: 600px;
+	}
+	.carousel-caption {
+		font-size: 60px;
+		text-align: center;
+	}
+	.navbar-brand {
+		float: right;
+	}
+}
+

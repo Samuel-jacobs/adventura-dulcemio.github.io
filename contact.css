@@ -1,0 +1,98 @@
+html, body {
+	width: 100%;
+    
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+#contact {
+	height: 100%;
+	
+	background: #ECF0F1;
+	
+	font-family: "comic sans MS";
+}
+.myform {
+	
+}
+.myform1 {
+	padding: 10px;
+}
+.line {
+	border-top : 1px solid black;		
+}
+.error {
+	color: red;
+}
+.success {
+	color: green;
+}
+
+.location {
+	float: left;
+	font-size: 20px;
+}
+.phone {
+	float: left;
+	font-size: 20px;
+}
+.email{
+	float: left;
+	font-size: 20px;
+}
+.logo-text {
+	float: left;
+}
+@media (min-width: 600px)	{
+	#contact {
+		padding: 50px;
+	} 
+	.contactform {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.contact {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+@media (max-width: 600px) {
+	#contact {
+		padding: 30px;
+	}
+	
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+

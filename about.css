@@ -1,0 +1,104 @@
+html, body {
+	width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+	font-family: 'Averia Serif Libre', "comic sans MS", Gadget, sans-serif;
+}
+#about {
+	height: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: #ECF0F1;
+	
+	font-family: 'Averia Serif Libre', "comic sans MS";
+}
+.my-10 {
+	border-top: 1px solid grey;
+	
+}.about-text {
+	text-align: center;
+	font-family: "comic sans MS";
+}
+#about2 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left:50px;
+	padding-right: 50px;
+	background: #D0D3D4;
+	font-family: 'Averia Serif Libre', "comic sans MS";
+}
+.image1 { 
+	
+}
+
+
+/* media queries */
+@media (min-width: 600px) {
+	#about {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		padding-left: 200px;
+		padding-right: 200px;
+		
+	}
+	
+	.image1 {
+		height: 100%;
+		width: 350px;
+		padding-left: 50px;
+		
+	}
+	.description {
+		
+	}
+}
+@media (max-width: 600px) {
+	#about {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#about2 {
+		padding-left: 20px;
+		padding-right: 20px;
+		text-align: center;
+		
+	}
+	.image1 { 
+		height: 250px;
+		width: 200px;
+	}
+	.description {
+		float: right;
+		padding-top: 10px;
+	}
+	.wine-title {
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
